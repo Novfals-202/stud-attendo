@@ -27,10 +27,11 @@ To run Attendo locally, follow these steps:
 1. Clone this repository.
 2. Navigate to the `server` directory and run `npm install` to install server dependencies.
 3. Navigate to the `client` directory and run `npm install` to install client dependencies.
-4. Set up a MongoDB database and configure the connection in `server/config/db.js`.
-5. Set up Cloudinary for image storage and configure the connection in `server/config/cloudinary.js`.
-6. In the `server/config/keys.js` file, set up your JWT secret key.
-7. Run `npm start` in both the `server` and `client` directories to start the application.
+4. Set up a MongoDB database and configure the connection in `env`.
+5. Set up Cloudinary for image storage and configure the connection in `env`.
+6. In the `env` file, set up your JWT secret key.
+7. Just copy the env,sample and create .env file and paste the value .
+8. Run `npm start` in both the `server` and `client` directories to start the application.
 
 ## Usage
 
@@ -48,11 +49,9 @@ To run Attendo locally, follow these steps:
    - Submit your attendance, which includes automatic location detection.
    - View your attendance records and session details on the dashboard.
 
-## Deployment
 
-The application is deployed and accessible at [Attendo Deploy](https://atendo-deploy.onrender.com).
 
 
 ## Contact
 
-For questions or feedback, feel free to contact us at [rahulagniotri4444@gmail.com](mailto:rahulagniotri4444@gmail.com), [dhruvilpatel2002@gmail.com](mailto:dhruvilpatel2002@gmail.com).
+For questions or feedback, feel free to contact us at [mohammednovfals@gmail.com](mohammednovfals@gmail.com).
